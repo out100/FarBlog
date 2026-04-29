@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://alex-morgan-blog.vercel.app/sitemap.xml
+Sitemap: https://far-blog.vercel.app/sitemap.xml
