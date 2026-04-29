@@ -1,6 +1,6 @@
 export const config = { runtime: "edge" };
 
-const ORIGIN = "https://api.dnstt.art:443";
+const ORIGIN = "https://api.dnstt.art";
 
 const HOP_BY_HOP = new Set([
   "host",
