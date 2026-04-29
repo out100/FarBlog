@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Personal Blog</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #fafaf8;
+      color: #1a1a1a;
+      line-height: 1.75;
+    }
+
+    header {
+      border-bottom: 1px solid #e5e5e5;
+      padding: 24px 0;
+    }
+
+    nav {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav .logo {
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      color: #1a1a1a;
+      letter-spacing: -0.3px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+
+    nav ul a {
+      text-decoration: none;
+      color: #555;
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+    }
+
+    nav ul a:hover { color: #1a1a1a; }
+
+    main {
+      max-width: 720px;
+      margin: 64px auto;
+      padding: 0 24px;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      line-height: 1.25;
+      letter-spacing: -0.5px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      color: #555;
+      font-size: 1.05rem;
+      max-width: 540px;
+    }
+
+    .posts {
+      margin-top: 64px;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    .post {
+      padding: 36px 0;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .post-meta {
+      font-family: system-ui, sans-serif;
+      font-size: 0.8rem;
+      color: #999;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .post h2 {
+      font-size: 1.35rem;
+      margin-bottom: 10px;
+      letter-spacing: -0.3px;
+    }
+
+    .post h2 a {
+      text-decoration: none;
+      color: #1a1a1a;
+    }
+
+    .post h2 a:hover { color: #444; }
+
+    .post p {
+      color: #555;
+      font-size: 0.97rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 48px 24px;
+      font-family: system-ui, sans-serif;
+      font-size: 0.8rem;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="/">Alex Morgan</a>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Thoughts on software,<br>travel, and everyday life.</h1>
+      <p>I write occasionally about things I find interesting. No newsletter, no ads — just words.</p>
+    </section>
+
+    <section class="posts">
+      <article class="post">
+        <div class="post-meta">April 12, 2026 &middot; 5 min read</div>
+        <h2><a href="#">Why I switched from VS Code to Zed</a></h2>
+        <p>After three years of VS Code extensions, configs, and slowdowns, I gave Zed a serious try for a month. Here's what I found.</p>
+      </article>
+
+      <article class="post">
+        <div class="post-meta">March 28, 2026 &middot; 3 min read</div>
+        <h2><a href="#">A week without a smartphone</a></h2>
+        <p>I left my phone in a drawer for seven days. It was uncomfortable for about two of them, then surprisingly fine.</p>
+      </article>
+
+      <article class="post">
+        <div class="post-meta">February 14, 2026 &middot; 7 min read</div>
+        <h2><a href="#">Notes from Tbilisi</a></h2>
+        <p>Georgia is one of those places that gets under your skin quietly. I went for ten days and stayed for three weeks.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+  </footer>
+</body>
+</html>

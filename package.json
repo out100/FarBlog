@@ -1,0 +1,11 @@
+{
+  "name": "Far-blog",
+  "version": "1.0.0",
+  "description": "Personal blog and writing portfolio",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}

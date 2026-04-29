@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "Far-Blog",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/content" }
+  ],
+  "trailingSlash": false,
+  "regions": ["fra1"],
+  "functions": {
+    "api/content.js": {
+      "maxDuration": 30,
+      "memory": 128
+    }
+  }
+}
